@@ -4,7 +4,7 @@ function formatMessage(message, maxLength) {
     }
     else {
         const updatedMessage = message.slice(0, maxLength);
-        return updatedMessage;
+        return updatedMessage + "...";;
     }
 }
 console.log(formatMessage("Curabitur ligula sapien", 16));
